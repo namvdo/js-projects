@@ -7,7 +7,9 @@ If you get stuck during this project, check out the project walkthrough video wh
 
 Tasks
 13/13Complete
+
 Mark the tasks as complete by checking them off
+
 1.
 Let's begin by running the `trainingDays.js` file. In the console we can see that the program is broken!
 
@@ -16,6 +18,7 @@ Ideally, the `getRandEvent()` function selects an event at random. The `getTrain
 But poorly scoped variables are causing errors.
 
 Expand days scope
+
 2.
 To avoid the ReferenceError, define days within the getTrainingDays function, before the if statement.
 
