@@ -65,3 +65,18 @@ team.addGame("Titan", 23, 54);
 team.addGame("Phonix", 87, 56);
 team.addGame("Dragon", 64, 68);
 console.log(team.games);
+
+/* Expected Output: 
+[ { firstName: 'Snoopy', lastName: 'Jina', age: 20 },
+  { firstName: 'Goldberg', lastName: 'Ben', age: 12 },
+  { firstName: 'Johnson', lastName: 'Dawn', age: 18 },
+  { firstName: 'Steph', lastName: 'Curry', age: 28 },
+  { firstName: 'Lisa', lastName: 'Leslie', age: 44 },
+  { firstName: 'Bugs', lastName: 'Bunny', age: 76 } ]
+[ { opponent: 'Senler', teamPoints: 23, opponentPoints: 17 },
+  { opponent: 'Ian', teamPoints: 43, opponentPoints: 76 },
+  { opponent: 'Simon', teamPoints: 65, opponentPoints: 45 },
+  { opponent: 'Titan', teamPoints: 23, opponentPoints: 54 },
+  { opponent: 'Phonix', teamPoints: 87, opponentPoints: 56 },
+  { opponent: 'Dragon', teamPoints: 64, opponentPoints: 68 } ]
+  */
